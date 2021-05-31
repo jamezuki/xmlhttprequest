@@ -21,8 +21,8 @@ body {
 }
 
 body {
-    color: $color-1;
-    background: $color-4;
+    color: $body-color;
+    background: $body-background;
     display: flex;
     flex-direction: column;
     padding: $nav-offset 20px 20px 20px;

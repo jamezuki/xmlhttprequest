@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as *;
+
+button {
+    color: $button-color;
+    background: $button-background;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 0 1.5rem 0;
+    padding: 15px 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    &:hover {
+        background: $button-background-hover;
+    }
+}
